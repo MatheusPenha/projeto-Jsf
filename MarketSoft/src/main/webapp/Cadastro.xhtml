@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+
+	<title>Cadastro</title>
+	<h:outputStylesheet library="css" name="Cadastro.css" />
+
+</h:head>
+<h:body>
+	<main>
+	<form action="">
+		<label for="name"> <span>Nome</span> <input type="text"
+			name="password" placeholder="Informe Seu nome completo"></input>
+		</label> <label for="name"> <span>E-mail</span> <input type="text"
+			name="password" placeholder="Informe Seu nome completo"></input>
+		</label> <label for="name"> <span>Senha</span> <input type="password"
+			name="password" placeholder="Informe Seu nome completo"></input>
+		</label> 
+
+		<button type="submit" onclick="cadastro()">
+			<a href="Produtos.xhtml"> Cadastrar </a>
+		</button>
+
+		<script>
+			function cadastro() {
+				alert('Cadastro Realizado com Sucesso!');
+			}
+		</script>
+	</form>
+	</main>
+
+</h:body>
+</html>
