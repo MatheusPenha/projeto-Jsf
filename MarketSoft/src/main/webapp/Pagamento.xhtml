@@ -11,40 +11,18 @@
 </h:head>
 <h:body>
 	<nav id="menu">
-		<ul class="ul">
 
-			<li>
-				<h1 id="h">Marketsoft</h1>
-			</li>
-
-			<li><a href="Quem_Somos.xhtml">Home</a></li>
-
-			<li><a href="Principal.xhtml">Produtos</a></li>
-
-			<li><a href="Cadastro.xhtml">Cadastre-se</a></li>
-
-			<li><a href="Login.xhtml">Entrar</a></li>
-
-			<li><input id="pes" type="text" class="search-txt"
-				placeholder="Pesquisar"></input></li>
-
-			<li>
-				<button id="but">
-					<a href="https://www.google.com.br/"> Pesquisar </a>
-				</button>
-			</li>
-		</ul>
-		<form class="checkout">
+		<h:form class="checkout">
 			<div class="checkout-header">
 				<h1 class="checkout-title">
 					Comprar <a class="checkout-price" href="Principal.xhtml">X</a>
 				</h1>
 			</div>
 			<p>
-				<input type="text" class="checkout-input checkout-name"
-					placeholder="Seu nome"></input> <input type="text"
-					class="checkout-input checkout-exp" placeholder="MÊS"></input> <input
-					type="text" class="checkout-input checkout-exp" placeholder="ANO"></input>
+				<h:inputText type="text" class="checkout-input checkout-name"
+					placeholder="Seu nome"></h:inputText> <h:inputText type="text"
+					class="checkout-input checkout-exp" placeholder="MÊS"></h:inputText> <h:inputText
+					type="text" class="checkout-input checkout-exp" placeholder="ANO"></h:inputText>
 			</p>
 			<p>
 				<input type="text" class="checkout-input checkout-card"
@@ -52,16 +30,16 @@
 					class="checkout-input checkout-cs" placeholder="CS"></input>
 			</p>
 			<p>
-				<input type="submit" value="Pagar" class="checkout-btn"
-					onclick="cadastro()"></input>
+				<h:inputText type="submit" value="Pagar" class="checkout-btn"
+					onclick="cadastro()"></h:inputText>
 				<script>
 					function cadastro() {
 						alert('Pagamento Realizado!');
 					}
 				</script>
-				<input></input>
+				<h:inputText></h:inputText>
 			</p>
-		</form>
+		</h:form>
 
 	</nav>
 

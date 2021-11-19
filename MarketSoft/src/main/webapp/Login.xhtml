@@ -15,18 +15,22 @@
 	<main>
 	<h1>Login</h1>
 
-	<FORM action="">
-		<LABEL for="email"> <span>E-mail</span> <input type="email"
-			name="password" placeholder="Digite seu e-mail"></input>
-		</LABEL> <LABEL for="password"> <span>Senha</span> <input
-			type="password" name="password" placeholder="Digite seu e-mail"></input>
-		</LABEL> <a href="Cadastro.xhtml">Cadastre-se Aqui</a>
+	<h:form action="">
+		<h:outputLabel for="name">
+			<span>Email</span>
+			<h:inputText type="text" name="password"
+				placeholder="Informe Seu nome completo"></h:inputText>
+		</h:outputLabel>
+		<h:outputLabel for="name">
+			<span>Senha</span>
+			<h:inputText type="password" name="password"
+				placeholder="Informe Seu nome completo"></h:inputText>
+			<a href="Cadastro.xhtml" style="text-align: center;">Cadastre-se Aqui</a>
 
-		
-			<a href="Principal.xhtml">Entrar</a>
-		
-	</FORM>
-	</main>
+
+			<a href="Principal.xhtml" style="text-align: center;">Entrar</a>
+			</h:outputLabel>
+	</h:form> </main>
 	<section class="imagem">
 
 		<div class="circle"></div>
